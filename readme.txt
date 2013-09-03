@@ -18,11 +18,11 @@ By entering the shortcode [formdesk folder="" form="" ssl="" width="" height=""]
 
 Required parameters:
 
-*   folder – Form’s folder name
-*   form - Form name
-*   ssl – "true" or "false"
-*   width - Widht in pixels or % (e.g. "600px" or "100%")
-*   height - Height in pixels (e.g. "600px")
+*   folder = Form's folder name
+*   form = Form name
+*   ssl = "true" or "false"
+*   width = Widht in pixels or % (e.g. "600px" or "100%")
+*   height = Height in pixels (e.g. "600px")
 
 To use this plugin you need a Formdesk account. More information at www.formdesk.com
 
