@@ -1,12 +1,11 @@
 === Plugin Name ===
-Contributors: Formdesk
 Plugin Name: Formdesk Shortcode
 Plugin URI: http://www.formdesk.com
 Author: Stefan Groenewoud
 Requires at least: 2.6
 Tags: formdesk, form, forms, contact form, form embed
 Tested up to: 3.6
-Stable tag: 1.2
+Stable tag: 1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -37,6 +36,9 @@ To use this plugin you need a Formdesk account. More information at www.formdesk
 1. Example of how shortcode is used.
 
 == Changelog ==
+
+= 1.3 =
+* Description added
 
 = 1.2 =
 * Screenshot added
