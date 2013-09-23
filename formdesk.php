@@ -2,7 +2,7 @@
 /*
 Plugin Name: Formdesk Shortcode
 Description: Enables shortcode to embed Formdesk forms.
-Version: 1.2
+Version: 1.4
 License: GPL
 Author: Stefan Groenewoud
 Author URI: http://www.formdesk.com

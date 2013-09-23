@@ -5,7 +5,7 @@ Author: Stefan Groenewoud
 Requires at least: 2.6
 Tags: formdesk, form, forms, contact form, form embed
 Tested up to: 3.6
-Stable tag: 1.3
+Stable tag: 1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
