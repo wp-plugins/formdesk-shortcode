@@ -38,13 +38,13 @@ To use this plugin you need a Formdesk account. More information at www.formdesk
 == Changelog ==
 
 = 2.0 =
-* Text widget support added
+* Text widget support added.
 
 = 1.2 =
-* Screenshot added
+* Screenshot added.
 
 = 1.1 =
-* Readme file update
+* Readme file update.
 
 = 1.0 =
-* Initial release
+* Initial release.
