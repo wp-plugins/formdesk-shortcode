@@ -4,8 +4,8 @@ Plugin URI: http://www.formdesk.com
 Author: Stefan Groenewoud
 Requires at least: 2.6
 Tags: formdesk, form, forms, contact form, form embed
-Tested up to: 3.6
-Stable tag: 2.0
+Tested up to: 4.0
+Stable tag: 2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -36,6 +36,9 @@ To use this plugin you need a Formdesk account. More information at www.formdesk
 1. Example of how shortcode is used.
 
 == Changelog ==
+
+= 2.1 =
+* Tested up to Wordpress 4.0.
 
 = 2.0 =
 * Text widget support added.
