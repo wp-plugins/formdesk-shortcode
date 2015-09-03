@@ -2,7 +2,7 @@
 /*
 Plugin Name: Formdesk Shortcode
 Description: Enables shortcode to embed Formdesk forms.
-Version: 2.1
+Version: 3.0
 License: GPL
 Author: Stefan Groenewoud
 Author URI: http://www.formdesk.com
@@ -14,7 +14,8 @@ function createformdeskiframe($atts, $content = null) {
 		'form'		=> '',
 		'ssl'		=> 'false',
 		'width'		=> '100%',
-		'height'	=> '500px'
+		'height'	=> '500px',
+		'scrolling'	=> 'false'
 	), $atts));
 	if (!$folder or !$form) {
 		$error = 'Forms folder or form name undefined.';
@@ -26,9 +27,15 @@ function createformdeskiframe($atts, $content = null) {
 		}
 		else {
 			$protocol = 'http';
+		}
+		if ($scrolling == 'true') {
+			$scrollbar = 'yes';
+		}
+		else {
+			$scrollbar = 'no';
 		}	
 		$url = $protocol . '://www.formdesk.com/' . $folder . '/' . $form . '/';
-		$iframe = '<iframe src="' . $url . '" allowTransparency="true" frameborder="0" scrolling="no" width="' . $width . '" height="' . $height . '"></iframe>';
+		$iframe = '<iframe src="' . $url . '" allowTransparency="true" frameborder="0" scrolling="' . $scrollbar . '" width="' . $width . '" height="' . $height . '"></iframe>';
 		return $iframe;
 	}
 }
